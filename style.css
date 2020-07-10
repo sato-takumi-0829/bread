@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*TOPここから*/
+header{
+    background-color:#241442;
+}
+
+header h1{
+    color:#fff;
+    font-size:45px;
+    font-weight:bold;
+    font-family:"有澤楷書";
+    position:relative;
+    top:-160px;
+    left:370px;
+}
+
+nav{
+    display:inline;
+    color:#fff;
+    background-color:#D59936;
+    font-size:16px;
+    font-weight:normal;
+}
+
+ nav ul{
+     display:inline;
+     color:#fff;
+     font-size:16px;
+     font-weight:normal;
+}
+
+/*nav ul li{
+    display:inline;
+    color:#fff;
+    font-size:16px;
+    font-weight:normal;
+}*/
+
+main h2{
+    color:#241442;
+    font-size:20px;
+    font-weight:bold;
+}
+
+footer{
+    background-color:#3E3E3E;
+    height:150px;
+    position:relative;
+    top:25px;
+}
+
+footer ul li{
+    color:#fff;
+    font-size:17px;
+    font-family:"京円";
+    display:inline;
+    text-align:right;
+    margin-right:10px;
+    position:relative;
+    top:30px;
+    left:350px;
+}
+
+footer p{
+    color:#fff;
+    font-size:15px;
+    text-align:center;
+    position:relative;
+    top:100px;
+}
+
+footer a img{
+    float:right;
+    position:relative;
+    top:-30px;
+}
+
+/*TOPここまで*/
+/*MENUここから*/
+main .menu{
+    display:inline;
+}
+
+main h2{
+    color:#000;
+    font-size:18px;
+    font-family:"京円";
+}
+
+main h2 ul li{
+    display:inline;
+    font-size:22px;
+    font-family:"京円";
+    margin-top:5px;
+}
+
+/*MENUここまで*/
+/*ACCESSここから*/
+main .map{
+    border:#d8c7a0 1px solid;
+    position:relative;
+    padding-bottom:50%;
+}
+
+main .map iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+main ul li{
+    font-weight:bold;
+    font-size:15px;
+    line-height:10px;
+    margin:50px auto;
+}
+
+/*ACCESSここまで*/
+/*CONTACTここから*/
+
+main h3{
+    font-size:30px;
+    font-family:"筑柴A丸ゴシック-E";
+    font-weight:bold;
+    text-align:center;
+}
+
+main form{
+    width:800px;
+    position:relative;
+    top:20px;
+    left:200px;
+}
+
+main form dt{
+    font-size:20px;
+    font-weight:bold;
+    font-family:"筑柴A丸ゴシック-E";
+    margin-top:8px;
+    margin-bottom:3px;
+}
+
+main form dd{
+    margin-top:10px;
+    width:1500px;
+    font-size:15px;
+}
+
+main form textarea{
+    color:#000;
+    background-color:#A2A2A2;
+    font-size:15px;
+    margin-bottom:30px;
+}
+
+main form p{
+    display:inline;
+}
+
+/*CONTACTここまで*/
+/*slideshowここから*/
+/* スライド */
+#slide_show{
+	width:100%;
+	max-width:1000px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+
+#slide{
+	width:10000px;
+	list-style-type:none;
+}
+
+#slide li{
+	float:left;
+}
+
+#nav_btn .prev{
+	position:absolute;
+	left:10px;
+	top:30%;
+	margin-top:-25px;
+}
+
+#nav_btn .next{
+	position:absolute;
+	right:10px;
+	top:30%;
+	margin-top:-25px;
+}
+
+/*slideshowここまで*/
